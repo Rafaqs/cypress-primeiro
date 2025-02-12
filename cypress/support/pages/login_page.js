@@ -18,7 +18,7 @@ export default{
     },
 
     digitarSenha(senha){
-        cy.get('#passwordX')
+        cy.get('#password')
             .type(senha)
     },
 
